@@ -1,0 +1,29 @@
+# My Python Project
+
+## Project Description
+
+This Python project includes several modules for performing arithmetic operations and other functionalities. It's structured to enforce certain programming rules, like calling a function from one module before another.
+
+## Project Structure
+
+The project has the following structure:
+
+
+## Modules
+
+- `simp.py`: Contains basic arithmetic functions (add and subtract).
+- `comp.py`: Contains more complex functions (sum of digits and palindrome check) with a dependency on `simp.py`.
+- `col.py`: Contains a custom implementation of the zip function.
+
+
+
+
+
+
+your_project_folder/
+│
+└── tools/
+    ├── col.py
+    └── numbers/
+        ├── simp.py
+        └── comp.py
